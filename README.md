@@ -1,5 +1,7 @@
 # 🚗 US Car Market Intelligence Dashboard
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://the-impact-of-covid-19-on-car-sales-in-the-us.streamlit.app/)
+
 > **Analyzing US car sales before, during, and after the COVID-19 pandemic**  
 > Built with Python · Pandas · Plotly · Streamlit
 
