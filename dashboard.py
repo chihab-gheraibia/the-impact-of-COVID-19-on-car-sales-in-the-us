@@ -31,12 +31,13 @@ st.markdown(
 # -----------------------------------------------------
 # LOAD DATA
 # -----------------------------------------------------
+import gdown
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv(
-        "data/car_sales.csv",
-        encoding="latin-1"
-    )
+    url = "https://drive.google.com/uc?id=1566PtRghmt7j07ekSqXTyjdpPVRGFDBy"
+    gdown.download(url, "car_sales.csv", quiet=False)
+    df = pd.read_csv("car_sales.csv", encoding="latin-1")
     return df
 
 df = load_data()
